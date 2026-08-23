@@ -66,7 +66,7 @@ void test_carrito_lleno(void) {
     carrito_agregar(&c,p);
     carrito_agregar(&c,p);
     carrito_agregar(&c,p);
-    ASSERT_IGUAL(0, carrito_total(&c));
+    ASSERT_IGUAL(0, carrito_agregar(&c, p));
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
