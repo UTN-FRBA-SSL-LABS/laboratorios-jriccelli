@@ -195,10 +195,10 @@ Descomentá `/* test_total_con_cantidad(); */` en el `main()`, compilá y corré
 
 **P5** — ¿Este test pasa o falla? ¿Qué valor esperaba y qué obtuvo?
 
-> R:
+> R: falla
 
 ```
-TEST_TOTAL_CANTIDAD_PASA=
+TEST_TOTAL_CANTIDAD_PASA=NO
 ```
 _(SI o NO)_
 
@@ -210,11 +210,11 @@ El test anterior encontró un bug en `carrito_total`. Abrí `src/carrito.c` y bu
 
 **P6** — ¿En qué línea está el bug y qué dice ese código?
 
-> R:
+> R: linea 9, que allí se ecnuentra el bug
 
 **P7** — ¿Qué debería hacer esa línea para calcular el total correctamente?
 
-> R:
+> R: Deberia tener tan solo <
 
 Corregí el bug. Luego volvé a compilar y correr:
 
